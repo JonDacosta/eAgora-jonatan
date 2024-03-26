@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.status-pending {
+    background-color: rgb(212, 141, 141);
+    color: rgb(130, 3, 3);
+}
+
+.status-in-progress {
+    background-color: rgba(225, 190, 93, 0.514);
+    color: rgb(203, 160, 42);
+}
+
+.status-done {
+    background-color: rgb(148, 213, 148);
+    color: rgb(43, 123, 43);
+}
